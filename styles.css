@@ -42,7 +42,6 @@ body {
     display: flex;
     flex: 1;
     align-items: center; /* Center vertically */
-    
 }
 
 .nav-text-logo {
@@ -50,4 +49,28 @@ body {
     color: white; /* Change font color */
     font-size: 2em; /* Change font size */
     font-weight: bold;;
+}
+
+.menu-text {
+    padding-left: 3%;
+    color: white; /* Change font color */
+    font-size: 1.2em; /* Change font size */
+    font-weight: bold;
+}
+
+.menu-icon {
+    width: 24px; /* Adjust size if needed */
+    height: 24px;
+}
+
+.menu-icon.messages {
+    width: 20px; /* Reduced size for messages.svg */
+    height: 20px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center; /* Center vertically */
+    padding: 10px 0; /* Add padding for spacing */
+    cursor: pointer; /* Change cursor to pointer on hover */
 }
